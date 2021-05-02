@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>5.0</version>
+    <date>2021-05-02T05:04:39Z</date>
+    <groups>
+        <group>
+            <name>Misc</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>HDHomeRun Tuner Stats</template>
+            <name>HDHomeRun Tuner Stats</name>
+            <groups>
+                <group>
+                    <name>Misc</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>HDHR</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>Tuner 0 Channel Bandwidth</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner0.bandw</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>bps</units>
+                    <description>Network Bandwidth on Tuner 0</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 0 Channel Number</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner0.channel</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Channel Number on Tuner 0</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 0 Channel Signal Quality</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner0.sigqual</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>%</units>
+                    <description>Signal Quality on Tuner 0</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 0 Channel Signal Strength</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner0.sigstr</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>%</units>
+                    <description>Signal Strength on Tuner 0</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 0 Channel Symbol Quality</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner0.symqual</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>%</units>
+                    <description>Symbol Quality on Tuner 0</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 1 Channel Bandwidth</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner1.bandw</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>bps</units>
+                    <description>Network Bandwidth on Tuner 1</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 1 Channel Number</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner1.channel</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Channel Number on Tuner 1</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 1 Channel Signal Quality</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner1.sigqual</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>%</units>
+                    <description>Signal Quality on Tuner 1</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 1 Channel Signal Strength</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner1.sigstr</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>%</units>
+                    <description>Signal Strength on Tuner 1</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>Tuner 1 Channel Symbol Quality</name>
+                    <type>TRAP</type>
+                    <key>hdhr.tuner1.symqual</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>%</units>
+                    <description>Symbol Quality on Tuner 1</description>
+                    <applications>
+                        <application>
+                            <name>HDHR</name>
+                        </application>
+                    </applications>
+                </item>
+            </items>
+        </template>
+    </templates>
+</zabbix_export>
